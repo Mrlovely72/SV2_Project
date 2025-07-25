@@ -1,0 +1,58 @@
+.card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #f9f9f9;
+}
+
+.card-body {
+  padding-top: 1rem;
+}
+
+.card-body p {
+  margin-bottom: 0.5rem;
+}
+
+.card .font-weight-bold {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card .card-text {
+  color: #777;
+  font-size: 0.85rem;
+  height: 45px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .text-danger {
+  color: #e53935;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card .small.text-muted {
+  font-size: 0.75rem;
+}
+
+.card .position-absolute {
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+  z-index: 1;
+}

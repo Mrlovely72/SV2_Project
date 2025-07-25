@@ -1,0 +1,23 @@
+<div class="card border-0 position-relative text-center p-3 shadow-sm" style="width: 14rem; height: 520px;">
+
+<p class="position-absolute top-0 start-0 bg-danger text-white px-2 py-1 small rounded">
+    {{product.Discount}}%
+</p>
+<br>
+<!-- Product Image -->
+<img [src]="product.image" class="card-img-top">
+
+<!-- Card Body -->
+<div class="card-body px-0">
+
+    <p class="font-weight-bold">{{product.name}}</p>
+
+    <p class="card-text small text-muted">{{product.description}}</p>
+
+    <p class="text-danger font-weight-normal">{{product.price | currency}}</p>
+    <p class="text-danger font-weight-normal">{{product.price | kHRCurrency}}៛</p>
+
+    <p class="font-weight-normal">{{product.category}}</p>
+
+</div>
+</div>
