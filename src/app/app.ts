@@ -113,7 +113,7 @@ export class App {
     },
     {
       "id": 11,
-      "name": "Noise Cancelling Headphones",
+      "name": "Headphones",
       "description": "Block out the world and enjoy immersive audio.",
       "price": 199.99,
       "Discount": 50,
